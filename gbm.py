@@ -42,7 +42,5 @@ P_x = sum(x) / len(x); #P_x is probability of x
 print('P[S(3)>39]        = ',P_x);
 
 # Calculate E[S(3)| S(3)>39]
-# E[S(3)| S(3)>39] = S3 * P[S(3)| S(3)>39]
-# P[S(3)| S(3)>39] = {P[S(3)] * P[S(3)>39]} / P[S(3)>39]
 E_value= sum(S3*x) / sum(x);
 print('E[S(3)| S(3)>39]  = ' ,E_value);
